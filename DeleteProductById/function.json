@@ -1,0 +1,37 @@
+{
+  "bindings": [
+    {
+      "authLevel": "function",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": [
+        "delete"
+      ],
+      "route": "product/{id}"
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    },
+    {
+      "type": "cosmosDB",
+      "name": "inputDocument",
+      "databaseName": "admin",
+      "collectionName": "mproducts",
+      "connectionStringSetting": "rghosh-cosmos-sql_DOCUMENTDB",
+      "direction": "in",
+      "sqlQuery": "select * from c where c.id = {id}"
+    },
+    {
+      "type": "cosmosDB",
+      "name": "outputDocument",
+      "databaseName": "admin",
+      "collectionName": "mproducts",
+      "createIfNotExists": false,
+      "connectionStringSetting": "rghosh-cosmos-sql_DOCUMENTDB",
+      "direction": "out"
+    }
+  ]
+}

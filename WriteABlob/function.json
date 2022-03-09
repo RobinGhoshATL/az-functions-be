@@ -1,0 +1,26 @@
+{
+    "bindings": [
+        {
+            "authLevel": "function",
+            "type": "httpTrigger",
+            "direction": "in",
+            "name": "req",
+            "methods": [
+                "post"
+            ],
+            "route": "blob"
+        },
+        {
+            "type": "http",
+            "direction": "out",
+            "name": "res"
+        },
+        {
+            "type": "blob",
+            "name": "myBlob",
+            "direction": "out",
+            "path": "images/{fileName}",
+            "connection": "MyStorageAccountAppSetting"
+        }
+    ]
+}

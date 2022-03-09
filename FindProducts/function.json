@@ -1,0 +1,28 @@
+{
+  "bindings": [
+    {
+      "authLevel": "function",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": [
+        "get"
+      ],
+      "route": "product/all"
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    },
+    {
+      "type": "cosmosDB",
+      "name": "ourproducts",
+      "databaseName": "admin",
+      "collectionName": "mproducts",
+      "connectionStringSetting": "rghosh-cosmos-sql_DOCUMENTDB",
+      "direction": "in",
+      "sqlQuery": "select * from c where c.active = 'active'"
+    }
+  ]
+}

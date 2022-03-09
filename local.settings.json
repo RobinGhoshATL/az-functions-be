@@ -1,0 +1,26 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "WEBSITE_SLOT_NAME": "Production",
+    "FUNCTIONS_EXTENSION_VERSION": "~3",
+    "ScmType": "None",
+    "APPLICATIONINSIGHTS_CONNECTION_STRING": "InstrumentationKey=bba690ca-0157-4766-8318-9eef9a6f19e5;IngestionEndpoint=https://centralus-2.in.applicationinsights.azure.com/",
+    "APPINSIGHTS_INSTRUMENTATIONKEY": "bba690ca-0157-4766-8318-9eef9a6f19e5",
+    "WEBSITE_NODE_DEFAULT_VERSION": "14.16.0",
+    "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "DefaultEndpointsProtocol=https;AccountName=storageaccountrsgapbe0c;AccountKey=p1pmmuuEIJSRiTE3okKF1pw5z3cElA1XdGOuL/vubMHOSYYLZC+1tAwBKL8SE+EsPVJlpwSQGUmfwsEWBr0Qgw==;EndpointSuffix=core.windows.net",
+    "WEBSITE_CONTENTSHARE": "shiva-app89d1",
+    "WEBSITE_AUTH_ENABLED": "False",
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "WEBSITE_SITE_NAME": "shiva-app",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=storageaccountrsgapbe0c;AccountKey=p1pmmuuEIJSRiTE3okKF1pw5z3cElA1XdGOuL/vubMHOSYYLZC+1tAwBKL8SE+EsPVJlpwSQGUmfwsEWBr0Qgw==;EndpointSuffix=core.windows.net",
+    "rghosh-cosmos-sql_DOCUMENTDB": "AccountEndpoint=https://rghosh-cosmos-sql.documents.azure.com:443/;AccountKey=DKV8Iy87NaM6oeMRNUUj8PDQA9cHfDu6OauhacIuyZz3fkSdQOgmT2XCAA7nortIKivdwDe6GwRAQTn1cFunMQ==;",
+    "MyStorageAccountAppSetting": "DefaultEndpointsProtocol=https;AccountName=rsgblobstorage;AccountKey=T0UfXP1YFCe58oqVD1MJmqH6RuXLDJDCn27TalTOdl/YT9KU4YRTPrWa7ZQsixB+laTi79Vo4W/uckRUO/TcIQ==;EndpointSuffix=core.windows.net",
+    "AZURE_STORAGE_CONTAINER_NAME": "images",
+    "AZURE_STORAGE_SERVER_URL": "https://rsgblobstorage.blob.core.windows.net/"
+  },
+  "Host": {
+    "LocalHttpPort": 7071,
+    "CORS": "*",
+    "CORSCredentials": false
+  }
+}
